@@ -1,27 +1,28 @@
-# React + TypeScript + Vite
+# [Agentes do Valorant](https://danilobertolini.github.io/Valorant-Agents/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma aplicação que mostra os personagens do jogo Valorant
 
-Currently, two official plugins are available:
+## Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [REACT](https://react.dev/)
+- [VITE](https://vitejs.dev/)
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [TYPESCRIPT](https://www.typescriptlang.org/)
+- [TAILWIND](https://tailwindcss.com/)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Como acessar
+  Pode acessar através desse [deploy](https://danilobertolini.github.io/Valorant-Agents/), ou se preferir na máquina local, pode seguir abaixo.
+  - Abra o terminal e faça o clone.
+  ```bash
+    git clone https://github.com/DaniloBertolini/Valorant-Agents.git
+  ```
+  - Instale as dependências.
+  ```bash
+    npm install
+  ```
+  - Iniciar o servidor de desenvolvimento.
+  ```bash
+    npm run dev
+  ```
+  - Abra o navegador em [http://localhost:3000](http://localhost:3000).
