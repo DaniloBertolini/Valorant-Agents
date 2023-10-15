@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+@font-face {
+  font-family: 'Valorant';
+  src: url('./fonts/valorantFont.ttf') format('truetype'),
+  url('./fonts/valorantFont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
