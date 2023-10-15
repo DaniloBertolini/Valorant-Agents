@@ -32,7 +32,7 @@ function App() {
       <img
       src="/valorant-title.svg"
       alt="valorant title"
-      className='absolute bottom-[145px] left-[300px] w-[350px] -rotate-[30deg]'
+      className='absolute bottom-[145px] left-[16%] w-[350px] -rotate-[30deg]'
       />
 
       <Agent nameAgent={ agentUseState }/>
