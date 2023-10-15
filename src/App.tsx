@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Agent from './components/Agent';
 import Cards from './components/Cards';
 import Header from './components/Header';
-import valorantTitle from './valorant-title.svg';
+import valorantTitle from '/valorant-title.svg';
 
 function App() {
   const [agentUseState, setAgentUseState] = useState<string>('');
