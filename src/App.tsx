@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Agent from './components/Agent';
 import Cards from './components/Cards';
 import Header from './components/Header';
+import valorantTitle from './valorant-title.svg';
 
 function App() {
   const [agentUseState, setAgentUseState] = useState<string>('');
@@ -30,7 +31,7 @@ function App() {
         }
       </div>
       <img
-      src="/valorant-title.svg"
+      src={ valorantTitle }
       alt="valorant title"
       className='absolute bottom-[145px] left-[16%] w-[350px] -rotate-[30deg]'
       />
