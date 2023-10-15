@@ -13,6 +13,9 @@ export default {
       skew: {
         '30': '30deg',
       },
+      fontFamily: {
+        "valorant": ["Valorant", "sans-serif"],
+      }
     },
   },
   plugins: [],

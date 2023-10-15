@@ -36,7 +36,13 @@ function Cards({ agent, onClick: alterAgent }: TypeCard) {
         rounded-tl-2xl
         "
       />
-      <p className="text-white text-center mb-5 capitalize font-[Valorant]">
+      <p className="
+      text-white
+      text-center
+      mb-5
+      capitalize
+      font-valorant
+      ">
         { agent }
       </p>
     </ >
