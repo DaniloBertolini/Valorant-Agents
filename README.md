@@ -1,8 +1,8 @@
-# [Agentes do Valorant](https://danilobertolini.github.io/Valorant-Agents/)
+# :gun: [Agentes do Valorant](https://danilobertolini.github.io/Valorant-Agents/)
 
 Uma aplicação que mostra os personagens do jogo Valorant
 
-## Tecnologias
+## :bomb: Tecnologias
 
 - [REACT](https://react.dev/)
 - [VITE](https://vitejs.dev/)
@@ -11,7 +11,7 @@ Uma aplicação que mostra os personagens do jogo Valorant
 - [TYPESCRIPT](https://www.typescriptlang.org/)
 - [TAILWIND](https://tailwindcss.com/)
 
-## Como acessar
+## :books: Como acessar
   Pode acessar através desse [deploy](https://danilobertolini.github.io/Valorant-Agents/), ou se preferir na máquina local, pode seguir abaixo.
   - Abra o terminal e faça o clone.
   ```bash
